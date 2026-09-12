@@ -37,9 +37,9 @@ fn main() {
 
     let result = match operation {
         '+' => num1 + num2,
-        '-' => num1 + num2,
-        '*' => num1 + num2,
-        '/' => num1 + num2,
+        '-' => num1 - num2,
+        '*' => num1 * num2,
+        '/' => num1 / num2,
         _ => unreachable!(),
     };
 
