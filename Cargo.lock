@@ -3,5 +3,9 @@
 version = 4
 
 [[package]]
-name = "ch03-exercises"
+name = "calc"
+version = "0.1.0"
+
+[[package]]
+name = "fib"
 version = "0.1.0"
